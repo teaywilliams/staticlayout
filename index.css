@@ -2,18 +2,12 @@ body{
   background-image: url("assets/unnamed.jpg");
 }
 
-@import url("https://fonts.google.com/specimen/Roboto");
-
 .logo{
-  width: 200px;
+  width: 150px;
   height: 100px;
 
 }
 
-*{
-  padding: 50;
-  margin: 50;
-}
 a,
 button{
   font-weight: 500;
@@ -25,11 +19,14 @@ button{
 }
 
 .nav-button {
-  padding: 9px 25px;
+  margin: 2%;
   background-color: transparent;
   border: 2px solid white;
-  border-radius: 2px;
-  height: 30px;
+  border-radius: 4.5px;
+  width: 120px;
+  height: 40px;
+  white-space: nowrap;
+  padding-top: 8px;
 }
 
 .nav-bar {
@@ -44,23 +41,21 @@ button{
 }
 
 .mid-screen {
+  font-family: sans-serif;
   text-align: center;
   color: white;
 }
 
 .mid-screen-button {
 
-  background-color: rgb(236, 186, 92);
+  background-color: rgb(235, 165, 36);
   border-radius: 8px;
 }
-
+.middleScreen{
+  width: 500px;
+  height: 300px;
+}
 .bottom-logo {
-  /* display: grid;
-  grid-template-columns: auto-fit, minmax(20%, 45%);
-  grid-column-gap: 100px;
-  justify-content: center;
-  margin-bottom: 50px;
-  height: 350px; */
   display: flex;
   width: 50%;
   height: 20%;
