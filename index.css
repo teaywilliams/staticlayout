@@ -1,0 +1,88 @@
+body{
+  background-image: url("assets/unnamed.jpg");
+}
+
+@import url("https://fonts.google.com/specimen/Roboto");
+
+.logo{
+  width: 200px;
+  height: 100px;
+
+}
+
+*{
+  padding: 50;
+  margin: 50;
+}
+a,
+button{
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: antiquewhite;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.nav-button {
+  padding: 9px 25px;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 2px;
+  height: 30px;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+}
+.nav-links {
+  display: flex;
+  align-items: right;
+  justify-items: right;
+}
+
+.mid-screen {
+  text-align: center;
+  color: white;
+}
+
+.mid-screen-button {
+
+  background-color: rgb(236, 186, 92);
+  border-radius: 8px;
+}
+
+.bottom-logo {
+  /* display: grid;
+  grid-template-columns: auto-fit, minmax(20%, 45%);
+  grid-column-gap: 100px;
+  justify-content: center;
+  margin-bottom: 50px;
+  height: 350px; */
+  display: flex;
+  width: 50%;
+  height: 20%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 25%;
+  margin-top: 3%;
+}
+.second-page {
+  background: white;
+}
+.last-row {
+  padding: 30px;
+  margin: 0 30px 70px;
+}
+
+#featureTxt {
+  margin-left: 45%;
+}
+
+.quote {
+  margin-left: 25%;
+}
